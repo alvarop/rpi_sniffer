@@ -24,9 +24,9 @@ A separate script can then be used to send all the network traffic from the Pi's
 ### Flashing SD Card
 1. Download [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/)
 1. Install the OS image to the SD card.
-  * The [Raspberry Pi Instructions](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) recommend using [Etcher.io](https://etcher.io)
+    * The [Raspberry Pi Instructions](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) recommend using [Etcher.io](https://etcher.io)
 1. After flashing, create an empty file named **ssh** in the boot/ directory.
-  * For example, in linux/MacOS run `touch ssh` while in the boot directory.
+    * For example, in linux/MacOS run `touch ssh` while in the boot directory.
 
 ### Powering up
 1. Connect RPi 3B to your router via ethernet (you can also connect directly to your host machine and do internet sharing, but I'll leave that as an exercise to the reader.)
