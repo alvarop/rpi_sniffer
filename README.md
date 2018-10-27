@@ -37,22 +37,24 @@ A separate script can then be used to send all the network traffic from the Pi's
 ### Finding IP Address
 If you have access to your router's admin panel, you can find out the newly assigned IP address for the Pi.
 
-If not, you can use nmap to scan your local network and see who has port 22 open. `nmap -p 22 --open 192.168.1.0/24`
+If not, you can use nmap to scan your local network and see who has port 22 open. For example: `nmap -p 22 --open 192.168.1.0/24`
 
 ### Run configuration script
 You should only have to do this once
 
 1. Run `./install.sh <ip address>`
 1. You'll likely have to type `yes` to accept the new host key
-1. You'll have to enter the raspberry pi's password once here, it's "raspberry"
+1. You'll have to enter the raspberry pi's password once here, it's **raspberry**
 1. The rest of the installation/configuration might take a few min
 
 ***NOTE: If you get a "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!", you'll have to go into your `~/.ssh/known_hosts` and remove the old signature***
 
 ### Default configuration
 The default configuration is:
-**SSID: rpi**
-**Password: 0123456789**
+```
+SSID: rpi
+Password: 0123456789
+```
 
 To change these values, you'll have to edit **install.sh**
 
