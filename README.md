@@ -9,8 +9,9 @@ A separate script can then be used to send all the network traffic from the Pi's
 
 ## Requirements
 ### Hardware
+* Computer running Linux or MacOS
 * Raspberry Pi 3B (This will not work on the 3B+ without modifications)
-* SD Card
+* SD Card (4GB and above)
 * Ethernet cable
 * Micro USB Power adapter or Micro USB Cable and USB Hub
 
